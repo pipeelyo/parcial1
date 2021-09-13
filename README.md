@@ -5,4 +5,4 @@
 - se recomienda tener instalado google chrome, firefox u otro navegador para ver el funcionamiento local
 
 - funcionamiento web:
-- se ingresa al link https://pipeelyo.github.io/pipeelyo/MostrarCliente.html
+- se ingresa al link https://pipeelyo.github.io/parcial1/
