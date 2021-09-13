@@ -1,0 +1,1 @@
+- 👋 este es el parcial 1
