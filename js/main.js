@@ -1,25 +1,17 @@
+$(document).ready(incial);
+var vinera = [];
+function incial(){
+	$("#submit").on("click", getForm);
+	$("#Mvinos").on("click", mostarVinos);
+}
 
-(function ($) {
-	"use strict";
-	$('.column100').on('mouseover',function(){
-		var table1 = $(this).parent().parent().parent();
-		var table2 = $(this).parent().parent();
-		var verTable = $(table1).data('vertable')+"";
-		var column = $(this).data('column') + ""; 
 
-		$(table2).find("."+column).addClass('hov-column-'+ verTable);
-		$(table1).find(".row100.head ."+column).addClass('hov-column-head-'+ verTable);
-	});
+function getForm(e){
+	e.preventDefault();
+	let info = $("#form").serializeArray(); 
+	vinera.push(info);
+}
 
-	$('.column100').on('mouseout',function(){
-		var table1 = $(this).parent().parent().parent();
-		var table2 = $(this).parent().parent();
-		var verTable = $(table1).data('vertable')+"";
-		var column = $(this).data('column') + ""; 
-
-		$(table2).find("."+column).removeClass('hov-column-'+ verTable);
-		$(table1).find(".row100.head ."+column).removeClass('hov-column-head-'+ verTable);
-	});
-    
-
-})(jQuery);
+function mostarVinos(){
+	console.log(vinera);
+}

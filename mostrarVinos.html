@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Vinitos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+	<script src="js/main.js"></script>
+</head>
+
+<body class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">La vinera</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav">
+			<a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="mostrarVinos.html">Mostrar vinos</a>
+			<a class="nav-item nav-link" href="CrearCliente.html">Crear Ventas</a>
+			<a class="nav-item nav-link disabled" href="MostrarCliente.html">Consultar Ventas</a>
+		  </div>
+		</div>
+	  </nav>
+	<div class="limiter" id="tabla">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100 ver2 m-b-110">
+					<div class="table100-head">
+						<table>
+							<thead>
+								<tr class="row100 head">
+									<th class="cell100 column1">Año</th>
+									<th class="cell100 column2">Nombre</th>
+									<th class="cell100 column3">Casa</th>
+									<th class="cell100 column4">bodega</th>
+									<th class="cell100 column5">Fecha</th>
+                                    <th class="cell100 column5">valor</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+
+					<div class="table100-body js-pscroll">
+						<table>
+							<tbody>
+								<tr class="row100 body">
+									<td class="cell100 column1">2010</td>
+									<td class="cell100 column2">Vino tino</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">10/06/2021</td>
+                                    <td class="cell100 column5">45.0000</td>
+								</tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">2001</td>
+									<td class="cell100 column2">Vino Seco</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">06/06/2021</td>
+                                    <td class="cell100 column5">46.000</td>
+								</tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">2010</td>
+									<td class="cell100 column2">Vino Dulce</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">04/03/2021</td>
+                                    <td class="cell100 column5">50.000</td>
+								</tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">2010</td>
+									<td class="cell100 column2">Vino añejo</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">15/09/2021</td>
+                                    <td class="cell100 column5">56.000</td>
+								</tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">2007</td>
+									<td class="cell100 column2">macho man</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">15/09/2021</td>
+                                    <td class="cell100 column5">38.000</td>
+								</tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">2014</td>
+									<td class="cell100 column2">pecholobo</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">15/02/2001</td>
+                                    <td class="cell100 column5">12.000</td>
+								</tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">2017</td>
+									<td class="cell100 column2">palomo cojo</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">15/05/2021</td>
+                                    <td class="cell100 column5">15.000</td>
+								</tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">2010</td>
+									<td class="cell100 column2">cariñoso</td>
+									<td class="cell100 column3">Alma mora</td>
+									<td class="cell100 column4">Dislicores</td>
+									<td class="cell100 column5">12/09/2021</td>
+                                    <td class="cell100 column5">20.000</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
