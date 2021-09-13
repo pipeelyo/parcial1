@@ -32,12 +32,14 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
+	<script src="https://kit.fontawesome.com/e180bdac5c.js" crossorigin="anonymous"></script>
+	
 	<script src="js/main.js"></script>
 </head>
 
 <body class="container-fluid">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="index.html">La vinera</a>
+		<a class="navbar-brand" href="index.html">Vinos Col </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
@@ -53,93 +55,137 @@
 	<div class="limiter" id="tabla">
 		<div class="container-table100">
 			<div class="wrap-table100">
-				<div class="table100 ver2 m-b-110">
-					<div class="table100-head">
-						<table>
+					<div class="table100-body js-pscroll">
+						<table class="table table-striped">
 							<thead>
-								<tr class="row100 head">
-									<th class="cell100 column1">Año</th>
-									<th class="cell100 column2">Nombre</th>
-									<th class="cell100 column3">Casa</th>
-									<th class="cell100 column4">bodega</th>
-									<th class="cell100 column5">Fecha</th>
-                                    <th class="cell100 column5">valor</th>
+							  	<tr class="row100 head">
+									<th scope="col">EAN</th>
+									<th scope="col">Año</th>
+									<th scope="col">Nombre</th>
+									<th scope="col">Casa</th>
+									<th scope="col">bodega</th>
+									<th scope="col">Fecha</th>
+									<th scope="col">valor</th>
+									<th scope="col">Cantidad</th>
+									<th scope="col">Acciones</th>
 								</tr>
 							</thead>
-						</table>
-					</div>
-
-					<div class="table100-body js-pscroll">
-						<table>
 							<tbody>
 								<tr class="row100 body">
-									<td class="cell100 column1">2010</td>
-									<td class="cell100 column2">Vino tino</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">10/06/2021</td>
-                                    <td class="cell100 column5">45.0000</td>
+									<td>12315489</td>
+									<td>2010</td>
+									<td>Vino tino</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>10/06/2021</td>
+                                    <td>45.0000</td>
+									<td>12</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
                                 <tr class="row100 body">
-									<td class="cell100 column1">2001</td>
-									<td class="cell100 column2">Vino Seco</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">06/06/2021</td>
-                                    <td class="cell100 column5">46.000</td>
+									<td>32548943216</td>
+									<td>2001</td>
+									<td>Vino Seco</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>06/06/2021</td>
+                                    <td>46.000</td>
+									<td>24</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
                                 <tr class="row100 body">
-									<td class="cell100 column1">2010</td>
-									<td class="cell100 column2">Vino Dulce</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">04/03/2021</td>
-                                    <td class="cell100 column5">50.000</td>
+									<td>1235648913</td>
+									<td>2010</td>
+									<td>Vino Dulce</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>04/03/2021</td>
+                                    <td>50.000</td>
+									<td>6</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
                                 <tr class="row100 body">
-									<td class="cell100 column1">2010</td>
-									<td class="cell100 column2">Vino añejo</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">15/09/2021</td>
-                                    <td class="cell100 column5">56.000</td>
+									<td>879723189</td>
+									<td>2010</td>
+									<td>Vino añejo</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>15/09/2021</td>
+                                    <td>56.000</td>
+									<td>8</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
                                 <tr class="row100 body">
-									<td class="cell100 column1">2007</td>
-									<td class="cell100 column2">macho man</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">15/09/2021</td>
-                                    <td class="cell100 column5">38.000</td>
+									<td>453548943</td>
+									<td>2007</td>
+									<td>macho man</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>15/09/2021</td>
+                                    <td>38.000</td>
+									<td>9</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
                                 <tr class="row100 body">
-									<td class="cell100 column1">2014</td>
-									<td class="cell100 column2">pecholobo</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">15/02/2001</td>
-                                    <td class="cell100 column5">12.000</td>
+									<td>45612348</td>
+									<td>2014</td>
+									<td>pecholobo</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>15/02/2001</td>
+                                    <td>12.000</td>
+									<td>12</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
                                 <tr class="row100 body">
-									<td class="cell100 column1">2017</td>
-									<td class="cell100 column2">palomo cojo</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">15/05/2021</td>
-                                    <td class="cell100 column5">15.000</td>
+									<td>3545984378</td>
+									<td>2017</td>
+									<td>palomo cojo</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>15/05/2021</td>
+                                    <td>15.000</td>
+									<td>79</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
                                 <tr class="row100 body">
-									<td class="cell100 column1">2010</td>
-									<td class="cell100 column2">cariñoso</td>
-									<td class="cell100 column3">Alma mora</td>
-									<td class="cell100 column4">Dislicores</td>
-									<td class="cell100 column5">12/09/2021</td>
-                                    <td class="cell100 column5">20.000</td>
+									<td>789453332</td>
+									<td>2010</td>
+									<td>cariñoso</td>
+									<td>Alma mora</td>
+									<td>Dislicores</td>
+									<td>12/09/2021</td>
+                                    <td>20.000</td>
+									<td>9</td>
+									<td>
+										<button><i class="fas fa-pencil-alt"></i></button>
+										<button><i class="fas fa-backspace"></i></button>
+									</td>
 								</tr>
 							</tbody>
-						</table>
+						  </table>
 					</div>
-				</div>
 
 			</div>
 		</div>
